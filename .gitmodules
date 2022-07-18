@@ -1,0 +1,8 @@
+[submodule "alexlevis/alexlevis.github.io"]
+	path = alexlevis/alexlevis.github.io
+	url = https://github.com/alexlevis/alexlevis.github.io.git
+	branch = main
+[submodule "alexlevis/public"]
+	path = alexlevis/public
+	url = https://github.com/alexlevis/alexlevis.github.io.git
+	branch = main
