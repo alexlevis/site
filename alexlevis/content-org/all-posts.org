@@ -3,7 +3,7 @@
 #+author:
 #+hugo_custom_front_matter: :author "Alex Levis"
 
-* DONE An introduction to instrumental variables                :causal:
+* DONE TODO: An introduction to instrumental variables               :causal:
 :PROPERTIES:
 :EXPORT_FILE_NAME: iv-intro
 :EXPORT_AUTHOR: nil
@@ -20,3 +20,11 @@ when (and perhaps how) IVs can be used to aid in causal inference
 research.
 
 ** Motivation: a trial with non-compliance
+Suppose we run a randomized controlled trial to study the
+effectiveness of a drug for some disease. For each subject, we flip a
+coin to determine whether they are in the drug arm, or are to receive
+a placebo pill --- let $Z \in \{0,1\}$ indicate the arm of
+randomization, with $Z = 1$ if a subject was randomized to the drug
+arm, and $Z = 0$ if randomized to the placebo arm.
+\[\frac{\sum_{i=1}^n Z_i Y_i}{\sum_{i=1}^n Z_i}\]
+
